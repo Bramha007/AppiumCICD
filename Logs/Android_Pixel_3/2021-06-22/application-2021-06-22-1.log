@@ -1,0 +1,20 @@
+[LogsAndroid_Pixel_3 INFO ] 2021-06-22 14:26:27.232 BaseTest:118 - App url is : C:\Users\NI20203797\Desktop\Udemy\Appium\TDD/src/test/resources/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 14:27:41.384 LoginTests:50 - 
+-----Starting Test-----
+invalidUsername
+
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 14:27:41.697 LoginPage:25 - Username : InvalidUser
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 14:27:43.619 LoginPage:31 - Password : secret_sauce
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 14:27:44.766 LoginPage:39 - Click Login Button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 14:27:47.440 LoginTests:65 - Actual Error msg : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 14:27:47.449 LoginTests:67 - Expected Error msg : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 INFO ] 2021-06-22 15:16:43.730 BaseTest:118 - App url is : C:\Users\NI20203797\Desktop\Udemy\Appium\TDD/src/test/resources/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 15:17:27.127 LoginTests:50 - 
+-----Starting Test-----
+invalidUsername
+
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 15:17:27.446 LoginPage:25 - Username : InvalidUser
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 15:17:30.418 LoginPage:31 - Password : secret_sauce
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 15:17:31.226 LoginPage:39 - Click Login Button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 15:17:32.939 LoginTests:65 - Actual Error msg : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-22 15:17:32.939 LoginTests:67 - Expected Error msg : Username and password do not match any user in this service.

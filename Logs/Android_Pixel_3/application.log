@@ -1,0 +1,67 @@
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:31:21.427 BaseTest:138 - App url is : C:\Users\NI20203797\Desktop\Udemy\Appium\TDD/src/test/resources/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:41.453 LoginTests:50 - 
+-----Starting Test-----
+invalidPassword
+
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:32:46.390 BaseTest:183 - Username : standard_user
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:32:47.600 BaseTest:183 - Password : InvalidPassword
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:48.815 BaseTest:172 - Press Login button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:49.957 BaseTest:197 - Error text is : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:49.966 LoginTests:88 - Expected Error msg : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:53.684 LoginTests:50 - 
+-----Starting Test-----
+invalidUsername
+
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:32:53.834 BaseTest:183 - Username : InvalidUser
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:32:54.810 BaseTest:183 - Password : secret_sauce
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:55.999 BaseTest:172 - Press Login button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:56.964 BaseTest:197 - Error text is : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:32:56.966 LoginTests:66 - Expected Error msg : Username and password do not match any user in this service.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:02.634 LoginTests:50 - 
+-----Starting Test-----
+successfulLogin
+
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:33:02.772 BaseTest:183 - Username : standard_user
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:33:04.137 BaseTest:183 - Password : secret_sauce
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:04.931 BaseTest:172 - Press Login button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:08.591 BaseTest:197 - Products Page Header : PRODUCTS
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:08.592 LoginTests:100 - Actual Products page header : PRODUCTS
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:08.593 LoginTests:101 - Expected Products page header : PRODUCTS
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:22.760 ProductsTests:56 - 
+-----Starting Test-----
+validateProductOnProductsDetailsPage
+
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:33:24.499 BaseTest:183 - Username : standard_user
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:33:25.631 BaseTest:183 - Password : secret_sauce
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:26.791 BaseTest:172 - Press Login button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:28.822 BaseTest:172 - Navigating to the Products Details Page
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:32.304 BaseTest:197 - Product Title from ProductDetailsPage : Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:32.716 BaseTest:197 - Product Description from ProductsDetailsPage : carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:32.718 ProductsTests:100 - Sauce Labs Backpack | Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:32.718 ProductsTests:101 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+ | 
+carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:32.721 BaseTest:209 - Scroll to prize
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:38.791 BaseTest:197 - Product Price from ProductsDetailsPage : $29.99
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:38.792 ProductsTests:106 - $29.99 | $29.99
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:38.923 BaseTest:172 - Click "Back to Products Button" and navigate to Products Page
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:40.764 BaseTest:197 - Backpack Title from ProductsPage : Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:40.767 MenuPage:16 - Click Menu Button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:43.028 BaseTest:172 - Click Logout Button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:48.631 ProductsTests:56 - 
+-----Starting Test-----
+validateProductOnProductsPageAndBackToProductPageButton
+
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:33:48.706 BaseTest:183 - Username : standard_user
+[LogsAndroid_Pixel_3 INFO ] 2021-06-26 21:33:49.880 BaseTest:183 - Password : secret_sauce
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:50.620 BaseTest:172 - Press Login button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:52.614 BaseTest:197 - Backpack Title from ProductsPage : Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:53.172 BaseTest:197 - Backpack Price from ProductsPage : $29.99
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:53.174 ProductsTests:78 - Sauce Labs Backpack |Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:53.175 ProductsTests:79 - $29.99 | $29.99
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:53.312 BaseTest:172 - Navigating to the Products Details Page
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:55.454 BaseTest:197 - Product Title from ProductDetailsPage : Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:55.455 ProductsTests:85 - Sauce Labs Backpack | Sauce Labs Backpack
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:55.511 BaseTest:172 - Click "Back to Products Button" and navigate to Products Page
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:55.604 MenuPage:16 - Click Menu Button
+[LogsAndroid_Pixel_3 DEBUG] 2021-06-26 21:33:58.511 BaseTest:172 - Click Logout Button

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="213.505" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\NI20203797\Desktop\Udemy\Appium\TDD\target\test-classes;C:\Users\NI20203797\Desktop\Udemy\Appium\TDD\target\classes;C:\Users\NI20203797\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NI20203797\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NI20203797\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NI20203797\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NI20203797\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NI20203797\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NI20203797\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NI20203797\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NI20203797\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NI20203797\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NI20203797\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\NI20203797\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\NI20203797\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\NI20203797\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NI20203797\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\NI20203797\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\NI20203797\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\NI20203797\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\NI20203797\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\NI20203797\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\NI20203797\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-context\5.3.4\spring-context-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-aop\5.3.4\spring-aop-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-beans\5.3.4\spring-beans-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-core\5.3.4\spring-core-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-jcl\5.3.4\spring-jcl-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-expression\5.3.4\spring-expression-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\NI20203797\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\NI20203797\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\NI20203797\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\NI20203797\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\NI20203797\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\NI20203797\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\NI20203797\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\NI20203797\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\NI20203797\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\NI20203797\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\NI20203797\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\NI20203797\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\NI20203797\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\NI20203797\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\NI20203797\AppData\Local\Temp\surefire4019312127265446227\surefirebooter8742114090474238045.jar C:\Users\NI20203797\AppData\Local\Temp\surefire4019312127265446227 2021-06-26T21-30-16_269-jvmRun1 surefire6391018685977959951tmp surefire_04845094291881865736tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\NI20203797\Desktop\Udemy\Appium\TDD\target\test-classes;C:\Users\NI20203797\Desktop\Udemy\Appium\TDD\target\classes;C:\Users\NI20203797\.m2\repository\io\appium\java-client\7.5.1\java-client-7.5.1.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\NI20203797\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\NI20203797\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\NI20203797\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\NI20203797\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\NI20203797\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\NI20203797\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\NI20203797\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\NI20203797\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\NI20203797\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\NI20203797\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\NI20203797\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\NI20203797\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\NI20203797\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\NI20203797\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\NI20203797\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\NI20203797\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\Users\NI20203797\.m2\repository\org\ow2\asm\asm\7.1\asm-7.1.jar;C:\Users\NI20203797\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\NI20203797\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\NI20203797\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\NI20203797\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\NI20203797\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-context\5.3.4\spring-context-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-aop\5.3.4\spring-aop-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-beans\5.3.4\spring-beans-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-core\5.3.4\spring-core-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-jcl\5.3.4\spring-jcl-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\springframework\spring-expression\5.3.4\spring-expression-5.3.4.jar;C:\Users\NI20203797\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\NI20203797\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\NI20203797\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\NI20203797\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\NI20203797\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\NI20203797\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\NI20203797\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\NI20203797\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\NI20203797\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\NI20203797\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\NI20203797\.m2\repository\com\aventstack\extentreports\5.0.8\extentreports-5.0.8.jar;C:\Users\NI20203797\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\NI20203797\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\NI20203797\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\NI20203797\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\NI20203797"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_291\jre"/>
+    <property name="basedir" value="C:\Users\NI20203797\Desktop\Udemy\Appium\TDD"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\NI20203797\AppData\Local\Temp\surefire4019312127265446227\surefirebooter8742114090474238045.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_291\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_291\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="user.name" value="NI20203797"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\NI20203797\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\NI2020~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="user.dir" value="C:\Users\NI20203797\Desktop\Udemy\Appium\TDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\nodejs\;C:\allure-2.13.9\allure-2.13.9\bin;C:\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\SeleniumGrid;C:\SeleniumNode;C:\Program Files\Git\cmd;C:\Program Files\Sublime Text 3;C:\Users\NI20203797\Vim\vim82;C:\Users\NI20203797\AppData\Local\Android\Sdk\platform-tools;C:\Users\NI20203797\AppData\Local\Android\Sdk\tools;C:\Users\NI20203797\AppData\Local\Android\Sdk\tools\bin;C:\Users\NI20203797\AppData\Local\Microsoft\WindowsApps;C:\Users\NI20203797\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\NI20203797\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_291\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="invalidPassword" classname="com.qa.tests.LoginTests" time="7.997">
+    <system-out><![CDATA[Starting Server
+[INFO ] 2021-06-26 21:31:21.427 com.qa.BaseTest:138 - App url is : C:\Users\NI20203797\Desktop\Udemy\Appium\TDD/src/test/resources/App/Android.SauceLabs.Mobile.Sample.app.2.7.1.apk
+[DEBUG] 2021-06-26 21:32:41.453 com.qa.tests.LoginTests:50 - 
+-----Starting Test-----
+invalidPassword
+
+[INFO ] 2021-06-26 21:32:46.390 com.qa.BaseTest:183 - Username : standard_user
+[INFO ] 2021-06-26 21:32:47.600 com.qa.BaseTest:183 - Password : InvalidPassword
+[DEBUG] 2021-06-26 21:32:48.815 com.qa.BaseTest:172 - Press Login button
+[DEBUG] 2021-06-26 21:32:49.957 com.qa.BaseTest:197 - Error text is : Username and password do not match any user in this service.
+[DEBUG] 2021-06-26 21:32:49.966 com.qa.tests.LoginTests:88 - Expected Error msg : Username and password do not match any user in this service.
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 26, 2021 9:32:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="invalidUsername" classname="com.qa.tests.LoginTests" time="3.686">
+    <system-out><![CDATA[[DEBUG] 2021-06-26 21:32:53.684 com.qa.tests.LoginTests:50 - 
+-----Starting Test-----
+invalidUsername
+
+[INFO ] 2021-06-26 21:32:53.834 com.qa.BaseTest:183 - Username : InvalidUser
+[INFO ] 2021-06-26 21:32:54.810 com.qa.BaseTest:183 - Password : secret_sauce
+[DEBUG] 2021-06-26 21:32:55.999 com.qa.BaseTest:172 - Press Login button
+[DEBUG] 2021-06-26 21:32:56.964 com.qa.BaseTest:197 - Error text is : Username and password do not match any user in this service.
+[DEBUG] 2021-06-26 21:32:56.966 com.qa.tests.LoginTests:66 - Expected Error msg : Username and password do not match any user in this service.
+]]></system-out>
+  </testcase>
+  <testcase name="successfulLogin" classname="com.qa.tests.LoginTests" time="6.014">
+    <system-out><![CDATA[[DEBUG] 2021-06-26 21:33:02.634 com.qa.tests.LoginTests:50 - 
+-----Starting Test-----
+successfulLogin
+
+[INFO ] 2021-06-26 21:33:02.772 com.qa.BaseTest:183 - Username : standard_user
+[INFO ] 2021-06-26 21:33:04.137 com.qa.BaseTest:183 - Password : secret_sauce
+[DEBUG] 2021-06-26 21:33:04.931 com.qa.BaseTest:172 - Press Login button
+[DEBUG] 2021-06-26 21:33:08.591 com.qa.BaseTest:197 - Products Page Header : PRODUCTS
+[DEBUG] 2021-06-26 21:33:08.592 com.qa.tests.LoginTests:100 - Actual Products page header : PRODUCTS
+[DEBUG] 2021-06-26 21:33:08.593 com.qa.tests.LoginTests:101 - Expected Products page header : PRODUCTS
+]]></system-out>
+  </testcase>
+  <testcase name="validateProductOnProductsDetailsPage" classname="com.qa.tests.ProductsTests" time="13.996">
+    <system-out><![CDATA[[DEBUG] 2021-06-26 21:33:22.760 com.qa.tests.ProductsTests:56 - 
+-----Starting Test-----
+validateProductOnProductsDetailsPage
+
+[INFO ] 2021-06-26 21:33:24.499 com.qa.BaseTest:183 - Username : standard_user
+[INFO ] 2021-06-26 21:33:25.631 com.qa.BaseTest:183 - Password : secret_sauce
+[DEBUG] 2021-06-26 21:33:26.791 com.qa.BaseTest:172 - Press Login button
+[DEBUG] 2021-06-26 21:33:28.822 com.qa.BaseTest:172 - Navigating to the Products Details Page
+[DEBUG] 2021-06-26 21:33:32.304 com.qa.BaseTest:197 - Product Title from ProductDetailsPage : Sauce Labs Backpack
+[DEBUG] 2021-06-26 21:33:32.716 com.qa.BaseTest:197 - Product Description from ProductsDetailsPage : carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[DEBUG] 2021-06-26 21:33:32.718 com.qa.tests.ProductsTests:100 - Sauce Labs Backpack | Sauce Labs Backpack
+[DEBUG] 2021-06-26 21:33:32.718 com.qa.tests.ProductsTests:101 - carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+ | 
+carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+[DEBUG] 2021-06-26 21:33:32.721 com.qa.BaseTest:209 - Scroll to prize
+[DEBUG] 2021-06-26 21:33:38.791 com.qa.BaseTest:197 - Product Price from ProductsDetailsPage : $29.99
+[DEBUG] 2021-06-26 21:33:38.792 com.qa.tests.ProductsTests:106 - $29.99 | $29.99
+[DEBUG] 2021-06-26 21:33:38.923 com.qa.BaseTest:172 - Click "Back to Products Button" and navigate to Products Page
+[DEBUG] 2021-06-26 21:33:40.764 com.qa.BaseTest:197 - Backpack Title from ProductsPage : Sauce Labs Backpack
+]]></system-out>
+  </testcase>
+  <testcase name="validateProductOnProductsPageAndBackToProductPageButton" classname="com.qa.tests.ProductsTests" time="4.899">
+    <system-out><![CDATA[[DEBUG] 2021-06-26 21:33:40.767 com.qa.MenuPage:16 - Click Menu Button
+[DEBUG] 2021-06-26 21:33:43.028 com.qa.BaseTest:172 - Click Logout Button
+[DEBUG] 2021-06-26 21:33:48.631 com.qa.tests.ProductsTests:56 - 
+-----Starting Test-----
+validateProductOnProductsPageAndBackToProductPageButton
+
+[INFO ] 2021-06-26 21:33:48.706 com.qa.BaseTest:183 - Username : standard_user
+[INFO ] 2021-06-26 21:33:49.880 com.qa.BaseTest:183 - Password : secret_sauce
+[DEBUG] 2021-06-26 21:33:50.620 com.qa.BaseTest:172 - Press Login button
+[DEBUG] 2021-06-26 21:33:52.614 com.qa.BaseTest:197 - Backpack Title from ProductsPage : Sauce Labs Backpack
+[DEBUG] 2021-06-26 21:33:53.172 com.qa.BaseTest:197 - Backpack Price from ProductsPage : $29.99
+[DEBUG] 2021-06-26 21:33:53.174 com.qa.tests.ProductsTests:78 - Sauce Labs Backpack |Sauce Labs Backpack
+[DEBUG] 2021-06-26 21:33:53.175 com.qa.tests.ProductsTests:79 - $29.99 | $29.99
+[DEBUG] 2021-06-26 21:33:53.312 com.qa.BaseTest:172 - Navigating to the Products Details Page
+[DEBUG] 2021-06-26 21:33:55.454 com.qa.BaseTest:197 - Product Title from ProductDetailsPage : Sauce Labs Backpack
+[DEBUG] 2021-06-26 21:33:55.455 com.qa.tests.ProductsTests:85 - Sauce Labs Backpack | Sauce Labs Backpack
+[DEBUG] 2021-06-26 21:33:55.511 com.qa.BaseTest:172 - Click "Back to Products Button" and navigate to Products Page
+]]></system-out>
+  </testcase>
+</testsuite>
